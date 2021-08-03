@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style:none;
+}
+.input{
+	position: relative;
+}
+.fa{
+    color: rgb(246, 255, 252);
+	font-size: 18px;
+	margin-top: 10px;
+}
+.icon{
+	position: absolute;
+	width: 58px;
+	height: 38px;
+	background-color: rgb(70, 85, 97);
+	right: 0;
+	top: 0;
+	text-align: center;
+}
+.item{
+	position: relative;
+	background-color: aquamarine;
+	font-size: 17px;
+	font-family: serif;
+	margin: 0 20px;
+	color: rgb(32, 15, 15);
+    display: flex;
+	flex-wrap: wrap;
+	flex-basis: 300px;
+	min-height: 100px;
+}
+.item p{
+	padding: 10px;
+    color: rgb(36, 25, 25);
+    font-size: 18px;
+    font-family: tahoma;
+    text-transform: capitalize;
+}
+.Dom{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+span .fa{
+	position: absolute;
+	font-size: 25px;
+	color: indianred;
+    top: -5px;
+	right: 14px;
+	cursor: pointer;
+}
+.controlPanel{
+	position: absolute;
+	width: 100%;
+	height: 40px;
+	background: lawngreen;
+	bottom: 0;
+	left: 0;
+}
+.colorpallte{
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-right:12px;
+}
+.colorStyle{
+	display: flex;
+	justify-content:start;
+	flex-wrap: wrap;
+    align-items: center;
+}
+
+.closeColoricon .fa{
+	position: absolute;
+    font-size: 25px;
+	margin-top: 14px;
+    right: 14px;
+    cursor: pointer;
+	display: block;
+}
+.textarea{
+	position: absolute;
+	resize: none;
+}
